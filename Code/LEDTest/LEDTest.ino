@@ -25,8 +25,8 @@ const int _SwitchPin1 = D2;
 bool _LastSwitchState1 = false;
 uint16_t _SwitchPressed1 = 0;
 
-const char* ssid = "Wince";
-const char* password = "manbearpig";
+const char* ssid = ""; // TODO: Fill in
+const char* password = ""; // TODO: Fill in
 const char* hostName = "LEDTest";
 
 ESP8266WebServer server(80);
